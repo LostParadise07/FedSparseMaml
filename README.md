@@ -16,23 +16,18 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
-Additionally, To run FedTP+KNN, FAISS should be installed. Instructions for the installation of FAISS can be found
+Additionally, To run FedSM+KNN, FAISS should be installed. Instructions for the installation of FAISS can be found
 [here](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
 
 
 ## Datasets
 
-We provide three federated benchmark datasets spanning image classification task (CIFAR10 and CIFAR100) 
-and language modeling(Shakespeare).
+We provide two federated benchmark datasets spanning image classification task (CIFAR10 and CIFAR100).
 
 
 For CIFAR10 and CIFAR100 dataset, download and unzip data under 'data' file catalog. 
 Or simply run any algorithms with CIFAR10/CIFAR100 dataset, the program will download data automatically.
 
-Shakespeare dataset was naturally partitioned by assigning
-all lines from the same characters to the same client. 
-See the `README.md` files in `data/shakespeare` 
-for instructions on generating data before running experiments.
 
 The following table summarizes the datasets and models
 
@@ -40,7 +35,6 @@ The following table summarizes the datasets and models
 | ------------------  |  ------|------- |
 | CIFAR10   |     Image classification        |      vit/cnn/cnn-b |
 | CIFAR100    |     Image classification         |      vit/cnn/cnn-b  |
-| Shakespeare |     Next character prediction        |      transformer/Stacked LSTM    |
 
 
 
