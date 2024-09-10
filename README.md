@@ -5,7 +5,7 @@ Federated Learning (FL) is a paradigm designed to enhance data privacy and secur
 To address this, we propose FedSM, a novel framework designed to learn personalized sparse attention for each client. This approach reduces computational complexity and enhances efficiency on resource-constrained client devices. Additionally, we introduce AdaptMAML, a meta-learning technique that enables clients to efficiently learn and adapt to their local Non-IID data distributions. This is achieved by training a hypernetwork on the server, which generates personalized projection matrices for the sparse-attention layers, thereby producing client-specific attention values. Experimental results demonstrate that FedSM achieves substantial accuracy improvements over SOTA methods. On the CIFAR-10 dataset, FedSM achieves accuracy gains of 3.72% and 3.48% for 50 and 100 training rounds, respectively. Similarly, on CIFAR-100, FedSM achieves gains of 1.17% and
 3.57% for 50 and 100 rounds, respectively. To support reproducibility, we commit to releasing FedSM models and code publicly.
 
-<img src="figures/pipeline.png" width="700" height="300" /><br/>
+<img src="figures/FedSparse.jpg" width="700" height="300" /><br/>
 
 
 ## Requirements
